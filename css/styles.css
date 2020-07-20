@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'kanitbold';
+    src: url('../fonts/kanit-bold-webfont.eot');
+    src: url('../fonts/kanit-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kanit-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kanit-bold-webfont.woff') format('woff'),
+         url('../fonts/kanit-bold-webfont.ttf') format('truetype'),
+         url('../fonts/kanit-bold-webfont.svg#kanitbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kanitmedium';
+    src: url('../fonts/kanit-medium-webfont.eot');
+    src: url('../fonts/kanit-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kanit-medium-webfont.woff2') format('woff2'),
+         url('../fonts/kanit-medium-webfont.woff') format('woff'),
+         url('../fonts/kanit-medium-webfont.ttf') format('truetype'),
+         url('../fonts/kanit-medium-webfont.svg#kanitmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1,h2.h3,h4,h5,h6{
+    font-family: 'kanitbold';
+}
+.primary-color{
+    color: #0f385f;
+}
+.secondary-color{
+    color:#e51a4a;
+}
+.font-medium{
+    font-family: "kanitmedium";  
+}
+.font-bold{
+    font-family: "kanitbold";
+}
+.font-size-3{
+font-size: 3rem;
+}
+header{
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #e41a4a;
+}
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron h1{
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 65px;
+}
+.jumbotron p{
+    font-family: "kanitmedium";
+    color:#fff;
+    padding-left: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0f385f;
+    border-color: #0f385f;
+}
+.btn-secondary {
+    color: #fff;
+    background-color:#e41a4a;
+    border-color: #e41a4a;
+}
+.btn-primary:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.btn{
+    border-radius: 0;
+}
+.img-overlay{
+    position: absolute;
+    margin-top: -64px;
+    z-index: 99;
+    width: 100%;
+}
+.section-padding{
+    padding: 45px 68px;
+}
+.section-1 .col-md-6{
+    height: 413px;
+}
+.section-1 h3,.section-2 .col-md-4 h3{
+    text-transform: uppercase;
+}
+.section-1 .col-md-5 h3{padding-top: 83px;}
+.section-1 .col-md-2.dis-btn{
+    position: absolute;
+    right: 0px;
+    margin-top: -78px;
+    background: #fff;
+    height: 46px;
+    text-align: center;
+    padding-top: 12px;
+}
+.section-2{
+    background: #0f385f;
+    margin: -26px -15px 0px -15px;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+}
+.section-2 h2,.section-3 h2{
+    font-family: 'kanitbold';
+    text-align: center;
+    font-size: 3rem;
+}
+.section-3 img{
+    width: 100%;
+}
+.bg-img{
+    background-image: url(../images/play-image1.png);
+    background-repeat: no-repeat;
+    background-color: #0f385f;
+}
+.section-4 .bg-color{
+    
+    color: #fff;
+    padding: 54px 82px;
+}
+.col-md-6.bg-color:before {
+    background-color: #0f385f;
+    transform: skew(10deg, 10deg);
+}
+.section-4 .bg-color h2{
+    line-height: 39px;
+}
+.section-5 .col-6{
+    padding-top: 32px;
+}
+.text-area.form-control{
+    width: 92%;
+    margin-left: -14px;
+}
+.form-control {
+    width: 256px;
+    margin-right: 17px;
+    border-radius: 0px;
+}
+footer{
+    background-image: url(../images/footer-bg.png);
+    padding-top: 46px;
+    padding-bottom: 20px;
+    font-family: "kanitmedium";
+    color: #fff;
+    text-transform: uppercase;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    padding: 0px;
+}
+footer ul li{
+    margin-right: 10px;
+    font-size: 13px;
+}
+footer ul li a{
+    color: #fff;
+}
+footer .form-control{
+    width: 39%;
+    height: 40px;
+}
+.footer-widget-3{
+    display: flex;
+    padding-bottom: 11px;
+}
+.footer-widget-2 ul{
+    margin-left: 18px;
+}
+.footer-widget-2 ul li a{
+font-size: 23px;
+}
+
+nav ul li.active{
+    background: #000;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-family: "kanitmedium";
+}
+.section-1 .col-md-2.dis-btn:before{
+    position: absolute;
+    content: '';
+    left: -18px;
+    top: 0;
+    height: 46px;
+    width: 61px;
+    background-color: #fff;
+    -ms-transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
